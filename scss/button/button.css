@@ -1,0 +1,100 @@
+.header-main-ancer-button:hover button {
+  background-color: transparent;
+  transition: 0.33s ease-in-out;
+}
+.header-main-ancer-button button {
+  display: block;
+  padding: 17px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+  background-color: var(--bgcolor1);
+  border: 3px solid var(--bgcolor1);
+  cursor: pointer;
+}
+.header-main-ancer-button img {
+  display: none;
+}
+
+.hero-contnet-alignment-button {
+  padding: 80px 0 0 0;
+  width: 172px;
+}
+.hero-contnet-alignment-button:hover button {
+  background-color: transparent;
+  transition: 0.33s ease-in-out;
+}
+.hero-contnet-alignment-button button {
+  display: block;
+  padding: 17px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+  background-color: var(--bgcolor1);
+  border: 3px solid var(--bgcolor1);
+  cursor: pointer;
+}
+
+.card-section-all-contnet-alignment-button {
+  display: flex;
+  justify-content: center;
+}
+.card-section-all-contnet-alignment-button:hover button {
+  background-color: transparent;
+  transition: 0.33s ease-in-out;
+  color: var(--color6);
+}
+.card-section-all-contnet-alignment-button button {
+  display: block;
+  padding: 17px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+  background-color: var(--bgcolor1);
+  border: 3px solid var(--bgcolor1);
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .hero-contnet-alignment-button {
+    padding: 60px 0 0 0;
+  }
+}
+@media (max-width: 576px) {
+  .header-main-ancer-button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .header-main-ancer-button button {
+    padding: 7px 17px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  .header-main-ancer-button img {
+    display: block;
+  }
+  .hero-contnet-alignment-button {
+    padding: 10px 0 0 0;
+  }
+  .hero-contnet-alignment-button button {
+    padding: 7px 17px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+}/*# sourceMappingURL=button.css.map */

@@ -1,0 +1,112 @@
+
+@mixin font10 {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+
+@mixin font12 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+
+@mixin font14 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+
+@mixin font16 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+
+@mixin font20 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+
+@mixin font22 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+
+@mixin font24 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    font-family: var(--font-family);
+}
+
+@mixin font25 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: var(--font-family);
+}
+
+@mixin font33 {
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+
+@mixin font36 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+
+@mixin font46 {
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+
+@mixin font50 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+
+@mixin font64 {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+
+@mixin font96 {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+}

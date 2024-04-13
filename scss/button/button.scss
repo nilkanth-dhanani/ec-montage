@@ -1,0 +1,94 @@
+@import "../typography/typography.scss";
+
+.header-main-ancer-button {
+    &:hover {
+        button {
+            background-color: transparent;
+            transition: 0.33s ease-in-out;
+        }
+    }
+    button {
+        display: block;
+        padding: 17px;
+        @include font16;
+        color: var(--color2);
+        background-color: var(--bgcolor1);
+        border: 3px solid var(--bgcolor1);
+        cursor: pointer;
+    }
+    img {
+        display: none;
+    }
+}
+
+.hero-contnet-alignment-button {
+    padding: 80px 0 0 0;
+    width: 172px;
+    &:hover {
+        button {
+            background-color: transparent;
+            transition: 0.33s ease-in-out;
+        }
+    }
+    button {
+        display: block;
+        padding: 17px;
+        @include font16;
+        color: var(--color2);
+        background-color: var(--bgcolor1);
+        border: 3px solid var(--bgcolor1);
+        cursor: pointer;
+    }
+}
+
+.card-section-all-contnet-alignment-button {
+    display: flex;
+    justify-content: center;
+    &:hover {
+        button {
+            background-color: transparent;
+            transition: 0.33s ease-in-out;
+            color: var(--color6);
+        }
+    }
+    button {
+        display: block;
+        padding: 17px;
+        @include font16;
+        color: var(--color2);
+        background-color: var(--bgcolor1);
+        border: 3px solid var(--bgcolor1);
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-contnet-alignment-button {
+        padding: 60px 0 0 0;
+    }
+
+    
+}
+
+@media (max-width: 576px) {
+    .header-main-ancer-button {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        button {
+            padding: 7px 17px;
+            @include font12;
+        }
+        img {
+            display: block;
+        }
+    }
+    
+    .hero-contnet-alignment-button {
+        padding: 10px 0 0 0;
+        button {
+            padding: 7px 17px;
+            @include font12;
+        }
+    }
+}

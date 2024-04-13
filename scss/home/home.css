@@ -1,0 +1,1240 @@
+.header-main-ancer-button:hover button {
+  background-color: transparent;
+  transition: 0.33s ease-in-out;
+}
+.header-main-ancer-button button {
+  display: block;
+  padding: 17px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+  background-color: var(--bgcolor1);
+  border: 3px solid var(--bgcolor1);
+  cursor: pointer;
+}
+.header-main-ancer-button img {
+  display: none;
+}
+
+.hero-contnet-alignment-button {
+  padding: 80px 0 0 0;
+  width: 172px;
+}
+.hero-contnet-alignment-button:hover button {
+  background-color: transparent;
+  transition: 0.33s ease-in-out;
+}
+.hero-contnet-alignment-button button {
+  display: block;
+  padding: 17px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+  background-color: var(--bgcolor1);
+  border: 3px solid var(--bgcolor1);
+  cursor: pointer;
+}
+
+.card-section-all-contnet-alignment-button {
+  display: flex;
+  justify-content: center;
+}
+.card-section-all-contnet-alignment-button:hover button {
+  background-color: transparent;
+  transition: 0.33s ease-in-out;
+  color: var(--color6);
+}
+.card-section-all-contnet-alignment-button button {
+  display: block;
+  padding: 17px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+  background-color: var(--bgcolor1);
+  border: 3px solid var(--bgcolor1);
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .hero-contnet-alignment-button {
+    padding: 60px 0 0 0;
+  }
+}
+@media (max-width: 576px) {
+  .header-main-ancer-button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .header-main-ancer-button button {
+    padding: 7px 17px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  .header-main-ancer-button img {
+    display: block;
+  }
+  .hero-contnet-alignment-button {
+    padding: 10px 0 0 0;
+  }
+  .hero-contnet-alignment-button button {
+    padding: 7px 17px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container-md {
+  max-width: 844px;
+  margin: 0 auto;
+}
+
+.container-md2 {
+  max-width: 1228px;
+  margin: 0 auto;
+}
+
+.container-md3 {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.container-md4 {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container-md5 {
+  max-width: 1065px;
+  margin: 0 auto;
+}
+
+.container-md6 {
+  max-width: 1086px;
+  margin: 0 auto;
+}
+
+:root {
+  --bgcolor1: #50a954;
+  --bgcolor2: #22262b;
+  --bgcolor3: #fafafa;
+  --color1: #000000;
+  --color2: #ffffff;
+  --color3: #545454;
+  --color4: #333;
+  --color5: #292929;
+  --color6: #404040;
+  --bordercolor: #e6e8ef;
+  --bordercolor1: #e3e3e4;
+  --font-family: "Inter", sans-serif;
+}
+
+header {
+  padding: 32px 0 0 0;
+}
+header .header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-main .header-main-logo {
+  box-sizing: border-box;
+}
+header .header-main .header-main-logo img {
+  max-width: 100%;
+}
+header .header-main .header-main-ancer {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: end;
+}
+header .header-main .header-main-ancer .header-main-ancer-div:hover a {
+  border-bottom: 2px solid var(--color2);
+  padding: 0;
+}
+header .header-main .header-main-ancer .header-main-ancer-div a {
+  display: block;
+  text-decoration-line: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+  padding-bottom: 2px;
+}
+
+@media (max-width: 1024px) {
+  header {
+    padding: 32px 20px 0 20px;
+  }
+  header .header-main .header-main-ancer {
+    gap: 20px;
+  }
+  header .header-main .header-main-ancer .header-main-ancer-div a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+}
+@media (max-width: 576px) {
+  header {
+    padding: 30px 30px 0 30px;
+  }
+  header .header-main .header-main-logo img {
+    max-width: 95px;
+  }
+  header .header-main .header-main-ancer .header-main-ancer-div {
+    display: none;
+  }
+}
+footer {
+  background: #22262b;
+  padding: 70px 0 23px;
+}
+footer .footer-first {
+  padding-bottom: 47px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+footer .footer-first .footer-first-div2 p {
+  max-width: 417px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+}
+footer .footer-last {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .footer-last .footer-last-div1 p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  font-weight: 300;
+  line-height: 44px;
+  color: var(--color2);
+}
+footer .footer-last .footer-last-div2 {
+  display: flex;
+  gap: 60px;
+}
+footer .footer-last .footer-last-div2 a {
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+  text-decoration-line: none;
+  font-weight: 300;
+  line-height: 44px;
+}
+
+@media (max-width: 1024px) {
+  footer .footer-first {
+    padding: 0 40px 47px 40px;
+  }
+  footer .footer-first .footer-first-div2 p {
+    max-width: 426px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--color2);
+    line-height: 30px;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+section .background-image {
+  background-image: url("../../images/herobanner-b3a1333f.png");
+  width: 100%;
+  background-size: cover;
+}
+section .background-image .hero-contnet-alignment {
+  padding: 100px 0 161px 0;
+}
+section .background-image .hero-contnet-alignment .hero-contnet-alignment-head {
+  padding-bottom: 20px;
+}
+section .background-image .hero-contnet-alignment .hero-contnet-alignment-head p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--bgcolor1);
+  margin-bottom: 10px;
+}
+section .background-image .hero-contnet-alignment .hero-contnet-alignment-head h1 {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+  margin-bottom: 10px;
+}
+section .background-image .hero-contnet-alignment .hero-contnet-alignment-head span {
+  display: block;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+}
+section .background-image .hero-contnet-alignment .hero-contnet-alignment-grid {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 16px;
+  padding: 0 0 12px;
+}
+section .background-image .hero-contnet-alignment .hero-contnet-alignment-grid p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--color2);
+}
+section .handwerk-all-contnet-alignment {
+  padding: 121px 0 79px;
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid {
+  display: grid;
+  grid-template-columns: 1fr 462px;
+  gap: 80px;
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid1 img {
+  padding-bottom: 18px;
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid1 h4 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color3);
+  padding-bottom: 20px;
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid1 span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color3);
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid2 p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 24px;
+  margin: 30px 0 20px 0;
+  color: var(--color3);
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid2 a {
+  text-decoration-line: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color4);
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number {
+  padding: 100px 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h4 {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color3);
+  display: flex;
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h4 span {
+  display: block;
+  width: 178px;
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h4 sup {
+  color: var(--color3);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-family);
+  position: relative;
+  top: -25px;
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h6 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 10px;
+  color: var(--color3);
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h4 {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color3);
+  display: flex;
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h4 span {
+  display: block;
+  width: 103px;
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h4 sup {
+  color: var(--color3);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-family);
+  position: relative;
+  top: -25px;
+}
+section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h6 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 10px;
+  color: var(--color3);
+}
+section .leistungen-all-content-alignment {
+  padding: 96px 0 690px;
+  background: var(--bgcolor2);
+}
+section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid {
+  display: grid;
+  grid-template-columns: 1fr 462px;
+  gap: 111px;
+  align-items: center;
+}
+section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div2 span {
+  display: block;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--bgcolor1);
+  margin-bottom: 10px;
+}
+section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div2 h4 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+  padding-bottom: 60px;
+}
+section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div2 p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 118px 0;
+  color: var(--color2);
+}
+section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  padding: 70px 0 0;
+}
+section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid2 .eistungen-all-content-alignment-grid2-div span {
+  display: block;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: var(--font-family);
+  color: var(--bgcolor1);
+  margin-bottom: 20px;
+}
+section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid2 .eistungen-all-content-alignment-grid2-div p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color2);
+}
+section .das-home-contnet-alignment {
+  margin-top: -530px;
+  position: relative;
+}
+section .das-home-contnet-alignment .das-home-contnet-alignment-div {
+  padding-bottom: 76px;
+}
+section .das-home-contnet-alignment .das-home-contnet-alignment-div span {
+  display: block;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  font-family: var(--font-family);
+  color: var(--bgcolor1);
+  margin-bottom: 11px;
+}
+section .das-home-contnet-alignment .das-home-contnet-alignment-div h4 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color2);
+  padding-bottom: 11px;
+}
+section .das-home-contnet-alignment .das-home-contnet-alignment-div p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  color: var(--color2);
+}
+section .das-home-contnet-alignment .das-home-contnet-alignment-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+section .das-home-contnet-alignment .das-home-contnet-alignment-grid .das-home-contnet-alignment-grid-div {
+  padding: 86px 45px 45px;
+  background: #f3f3f3;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1019607843);
+}
+section .das-home-contnet-alignment .das-home-contnet-alignment-grid .das-home-contnet-alignment-grid-div h4 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color5);
+  padding-bottom: 11px;
+}
+section .das-home-contnet-alignment .das-home-contnet-alignment-grid .das-home-contnet-alignment-grid-div span {
+  display: block;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  line-height: 32px;
+  color: var(--color5);
+  min-height: 73px;
+}
+section .das-home-contnet-alignment .das-home-contnet-alignment-grid .das-home-contnet-alignment-grid-div p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  font-weight: 300;
+  line-height: 20px;
+  color: var(--color5);
+  max-width: 224px;
+}
+section .slider-section-all-contnet-alignment {
+  padding: 125px 0 151px;
+}
+section .slider-section-all-contnet-alignment marquee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .slider-section-all-contnet-alignment marquee img {
+  padding-left: 100px;
+}
+section .card-section-all-contnet-alignment {
+  padding: 0 0 78px;
+}
+section .card-section-all-contnet-alignment .card-section-all-contnet-alignment-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  padding: 0 0 74px;
+}
+section .card-section-all-contnet-alignment .card-section-all-contnet-alignment-grid .card-section-all-contnet-alignment-grid-div {
+  display: grid;
+  align-content: space-between;
+}
+section .card-section-all-contnet-alignment .card-section-all-contnet-alignment-grid .card-section-all-contnet-alignment-grid-div img {
+  width: 100%;
+}
+section .card-section-all-contnet-alignment .card-section-all-contnet-alignment-grid .card-section-all-contnet-alignment-grid-div p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  line-height: 24px;
+  color: var(--color6);
+  max-width: 229px;
+  padding: 20px 0;
+}
+section .card-section-all-contnet-alignment .card-section-all-contnet-alignment-grid .card-section-all-contnet-alignment-grid-div span {
+  display: block;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color6);
+}
+section .uberuns-all-contnet-alignment {
+  padding: 0 0 70px;
+}
+section .uberuns-all-contnet-alignment .uberuns-all-contnet-alignment-grid {
+  display: grid;
+  grid-template-columns: 336px 1fr;
+  gap: 62px;
+  align-items: center;
+}
+section .uberuns-all-contnet-alignment .uberuns-all-contnet-alignment-grid .uberuns-all-contnet-alignment-grid-div1 span {
+  display: block;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--bgcolor1);
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+section .uberuns-all-contnet-alignment .uberuns-all-contnet-alignment-grid .uberuns-all-contnet-alignment-grid-div1 h6 {
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color6);
+}
+section .uberuns-all-contnet-alignment .uberuns-all-contnet-alignment-grid .uberuns-all-contnet-alignment-grid-div1 h5 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  color: var(--color6);
+  line-height: 24px;
+  padding: 25px 0;
+}
+section .uberuns-all-contnet-alignment .uberuns-all-contnet-alignment-grid .uberuns-all-contnet-alignment-grid-div1 p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color6);
+}
+
+@media (max-width: 1024px) {
+  section .background-image .hero-contnet-alignment {
+    padding: 60px 40px;
+  }
+  section .background-image .hero-contnet-alignment .hero-contnet-alignment-head {
+    padding-bottom: 20px;
+  }
+  section .background-image .hero-contnet-alignment .hero-contnet-alignment-head h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  section .handwerk-all-contnet-alignment {
+    padding: 60px 40px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid {
+    gap: 50px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid1 img {
+    padding-bottom: 18px;
+    max-width: 186px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid1 h4 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number {
+    padding: 100px 80px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h4 {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+    color: var(--color3);
+    display: flex;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h4 span {
+    display: block;
+    width: 178px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h4 sup {
+    color: var(--color3);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+    position: relative;
+    top: -25px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h6 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 10px;
+    color: var(--color3);
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h4 {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+    color: var(--color3);
+    display: flex;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h4 span {
+    display: block;
+    width: 103px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h4 sup {
+    color: var(--color3);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+    position: relative;
+    top: -25px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h6 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 10px;
+    color: var(--color3);
+  }
+  section .leistungen-all-content-alignment {
+    padding: 96px 0 600px;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div1 {
+    display: flex;
+    justify-content: center;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div2 {
+    padding: 0 40px;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div2 h4 {
+    padding-bottom: 30px;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div2 p {
+    margin: 0 0 50px 0;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid2 {
+    padding: 50px 0 0;
+  }
+  section .das-home-contnet-alignment {
+    padding: 0 40px;
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-div {
+    padding-bottom: 50px;
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-div h4 {
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-grid {
+    gap: 20px;
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-grid .das-home-contnet-alignment-grid-div {
+    padding: 40px 20px;
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-grid .das-home-contnet-alignment-grid-div span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-grid .das-home-contnet-alignment-grid-div p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 400;
+  }
+  section .slider-section-all-contnet-alignment {
+    padding: 100px 0;
+  }
+  section .slider-section-all-contnet-alignment marquee img {
+    max-width: 450px;
+    padding-left: 50px;
+  }
+  section .card-section-all-contnet-alignment {
+    padding: 0 0 50px;
+  }
+  section .card-section-all-contnet-alignment .card-section-all-contnet-alignment-grid {
+    gap: 30px;
+    padding: 0 0 50px;
+  }
+  section .uberuns-all-contnet-alignment {
+    padding: 0 40px 70px 40px;
+  }
+  section .uberuns-all-contnet-alignment .uberuns-all-contnet-alignment-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+@media (max-width: 576px) {
+  section .background-image {
+    background-position: center center;
+  }
+  section .background-image .hero-contnet-alignment {
+    padding: 143px 30px 53px 30px;
+  }
+  section .background-image .hero-contnet-alignment .hero-contnet-alignment-head {
+    padding-bottom: 20px;
+  }
+  section .background-image .hero-contnet-alignment .hero-contnet-alignment-head p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  section .background-image .hero-contnet-alignment .hero-contnet-alignment-head h1 {
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  section .background-image .hero-contnet-alignment .hero-contnet-alignment-head span {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  section .background-image .hero-contnet-alignment .hero-contnet-alignment-grid p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+    max-width: 212px;
+  }
+  section .handwerk-all-contnet-alignment {
+    padding: 60px 20px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid1 img {
+    padding-bottom: 18px;
+    max-width: 186px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid1 h4 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid1 span {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 600;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid2 p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 24px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-grid .handwerk-all-contnet-alignment-grid2 a {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number {
+    padding: 45px 0 0 0;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h4 {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+    color: var(--color3);
+    display: flex;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h4 span {
+    display: block;
+    width: 118px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h4 sup {
+    color: var(--color3);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+    position: relative;
+    top: -20px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number1 h6 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 10px;
+    color: var(--color3);
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h4 {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+    color: var(--color3);
+    display: flex;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h4 span {
+    display: block;
+    width: 68px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h4 sup {
+    color: var(--color3);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+    position: relative;
+    top: -20px;
+  }
+  section .handwerk-all-contnet-alignment .handwerk-all-contnet-alignment-number .handwerk-all-contnet-alignment-number2 h6 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 10px;
+    color: var(--color3);
+  }
+  section .leistungen-all-content-alignment {
+    padding: 96px 0 600px;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 0 20px;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div1 {
+    display: flex;
+    justify-content: center;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div1 img {
+    width: 100%;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div2 {
+    padding: 0px;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div2 h4 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    font-family: var(--font-family);
+    line-height: 24px;
+    padding-bottom: 30px;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid .eistungen-all-content-alignment-grid-div2 p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 50px 0;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid2 {
+    padding: 50px 20px 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid2 .eistungen-all-content-alignment-grid2-div span {
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    color: var(--bgcolor1);
+    margin-bottom: 20px;
+  }
+  section .leistungen-all-content-alignment .eistungen-all-content-alignment-grid2 .eistungen-all-content-alignment-grid2-div p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color2);
+  }
+  section .das-home-contnet-alignment {
+    padding: 0 20px;
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-div {
+    padding-bottom: 50px;
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-div span {
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    color: var(--bgcolor1);
+    margin-bottom: 11px;
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-div h4 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: var(--font-family);
+    color: var(--color2);
+    padding-bottom: 11px;
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-div p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--color2);
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-grid {
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-grid .das-home-contnet-alignment-grid-div {
+    padding: 40px 20px;
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-grid .das-home-contnet-alignment-grid-div span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+  }
+  section .das-home-contnet-alignment .das-home-contnet-alignment-grid .das-home-contnet-alignment-grid-div p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 300;
+    line-height: 20px;
+    color: var(--color5);
+    max-width: 250px;
+  }
+  section .slider-section-all-contnet-alignment {
+    padding: 50px 0;
+  }
+  section .slider-section-all-contnet-alignment marquee img {
+    max-width: 250px;
+    padding-left: 50px;
+  }
+  section .card-section-all-contnet-alignment {
+    padding: 0 20px 50px 20px;
+  }
+  section .card-section-all-contnet-alignment .card-section-all-contnet-alignment-grid {
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 0 50px;
+  }
+  section .card-section-all-contnet-alignment .card-section-all-contnet-alignment-grid .card-section-all-contnet-alignment-grid-div p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    line-height: 24px;
+    color: var(--color6);
+    max-width: 229px;
+    padding: 20px 0;
+  }
+  section .card-section-all-contnet-alignment .card-section-all-contnet-alignment-grid .card-section-all-contnet-alignment-grid-div span {
+    display: block;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color6);
+  }
+  section .uberuns-all-contnet-alignment {
+    padding: 0 20px 70px 20px;
+  }
+  section .uberuns-all-contnet-alignment .uberuns-all-contnet-alignment-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  section .uberuns-all-contnet-alignment .uberuns-all-contnet-alignment-grid .uberuns-all-contnet-alignment-grid-div1 h6 {
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family);
+    color: var(--color6);
+  }
+  section .uberuns-all-contnet-alignment .uberuns-all-contnet-alignment-grid .uberuns-all-contnet-alignment-grid-div1 h5 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    color: var(--color6);
+    line-height: 24px;
+    padding: 25px 0;
+  }
+  section .uberuns-all-contnet-alignment .uberuns-all-contnet-alignment-grid .uberuns-all-contnet-alignment-grid-div1 p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color6);
+  }
+  section .uberuns-all-contnet-alignment .uberuns-all-contnet-alignment-grid .uberuns-all-contnet-alignment-grid-div2 img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=home.css.map */

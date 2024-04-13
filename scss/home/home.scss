@@ -1,0 +1,736 @@
+@import "../index.scss";
+@import "../header/header.scss";
+@import "../footer/footer.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    .background-image {
+        background-image: url("../../images/herobanner-b3a1333f.png");
+        width: 100%;
+        background-size: cover;
+        .hero-contnet-alignment {
+            padding: 100px 0 161px 0;
+            .hero-contnet-alignment-head {
+                padding-bottom: 20px;
+                p {
+                    @include font20;
+                    color: var(--bgcolor1);
+                    margin-bottom: 10px;
+                }
+                h1 {
+                    @include font96;
+                    color: var(--color2);
+                    margin-bottom: 10px;
+                }
+                span {
+                    display: block;
+                    @include font20;
+                    color: var(--color2);
+                }
+            }
+            .hero-contnet-alignment-grid {
+                display: grid;
+                grid-template-columns: 24px 1fr;
+                gap: 16px;
+                padding: 0 0 12px;
+                p {
+                    @include font16;
+                    font-weight: 400;
+                    color: var(--color2);
+                }
+            }
+        }
+    }
+    .handwerk-all-contnet-alignment {
+        padding: 121px 0 79px;
+        .handwerk-all-contnet-alignment-grid {
+            display: grid;
+            grid-template-columns: 1fr 462px;
+            gap: 80px;
+            .handwerk-all-contnet-alignment-grid1 {
+                img {
+                    padding-bottom: 18px;
+                }
+                h4 {
+                    @include font36;
+                    color: var(--color3);
+                    padding-bottom: 20px;
+                }
+                span {
+                    @include font14;
+                    color: var(--color3);
+                }
+            }
+            .handwerk-all-contnet-alignment-grid2 {
+                p {
+                    @include font16;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin: 30px 0 20px 0;
+                    color: var(--color3);
+                }
+                a {
+                    text-decoration-line: none;
+                    @include font16;
+                    color: var(--color4);
+                }
+            }
+        }
+        .handwerk-all-contnet-alignment-number {
+            padding: 100px 80px 0;
+            display: flex;
+            justify-content: space-between;
+            .handwerk-all-contnet-alignment-number1 {
+                h4 {
+                    @include font96;
+                    color: var(--color3);
+                    display: flex;
+                    span {
+                        display: block;
+                        width: 178px;
+                    }
+                    sup {
+                        color: var(--color3);
+                        @include font36;
+                        position: relative;
+                        top: -25px;
+                    }
+                }
+                h6 {
+                    @include font16;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding-top: 10px;
+                    color: var(--color3);
+                }
+            }
+            .handwerk-all-contnet-alignment-number2 {
+                h4 {
+                    @include font96;
+                    color: var(--color3);
+                    display: flex;
+                    span {
+                        display: block;
+                        width: 103px;
+                    }
+                    sup {
+                        color: var(--color3);
+                        @include font36;
+                        position: relative;
+                        top: -25px;
+                    }
+                }
+                h6 {
+                    @include font16;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding-top: 10px;
+                    color: var(--color3);
+                }
+            }
+        }
+    }
+    .leistungen-all-content-alignment {
+        padding: 96px 0 690px;
+        background: var(--bgcolor2);
+        .eistungen-all-content-alignment-grid {
+            display: grid;
+            grid-template-columns: 1fr 462px;
+            gap: 111px;
+            align-items: center;
+            .eistungen-all-content-alignment-grid-div2 {
+                span {
+                    display: block;
+                    @include font20;
+                    color: var(--bgcolor1);
+                    margin-bottom: 10px;
+                }
+                h4 {
+                    @include font36;
+                    color: var(--color2);
+                    padding-bottom: 60px;
+                }
+                p {
+                    @include font16;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin: 0 0 118px 0;
+                    color: var(--color2);
+                }
+            }
+        }
+        .eistungen-all-content-alignment-grid2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+            padding: 70px 0 0;
+            .eistungen-all-content-alignment-grid2-div {
+                span {
+                    display: block;
+                    @include font25;
+                    color: var(--bgcolor1);
+                    margin-bottom: 20px;
+                }
+                p {
+                    @include font16;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: var(--color2);
+                }
+            }
+        }
+    }
+    .das-home-contnet-alignment {
+        margin-top: -530px;
+        position: relative;
+        .das-home-contnet-alignment-div {
+            padding-bottom: 76px;
+            span {
+                display: block;
+                @include font24;
+                color: var(--bgcolor1);
+                margin-bottom: 11px;
+            }
+            h4 {
+                @include font50;
+                color: var(--color2);
+                padding-bottom: 11px;
+            }
+            p {
+                @include font24;
+                font-weight: 500;
+                color: var(--color2);
+            }
+        }
+        .das-home-contnet-alignment-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            .das-home-contnet-alignment-grid-div {
+                padding: 86px 45px 45px;
+                background: #f3f3f3;
+                box-shadow: 0 0 20px #0000001a;
+                h4 {
+                    @include font50;
+                    color: var(--color5);
+                    padding-bottom: 11px;
+                }
+                span {
+                    display: block;
+                    @include font20;
+                    line-height: 32px;
+                    color: var(--color5);
+                    min-height: 73px;
+                }
+                p {
+                    @include font16;
+                    font-weight: 300;
+                    line-height: 20px;
+                    color: var(--color5);
+                    max-width: 224px;
+                }
+            }
+        }
+    }
+    .slider-section-all-contnet-alignment {
+        padding: 125px 0 151px;
+        marquee {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                padding-left: 100px;
+            }
+        }
+    }
+    .card-section-all-contnet-alignment {
+        padding: 0 0 78px;
+        .card-section-all-contnet-alignment-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 60px;
+            padding: 0 0 74px;
+            .card-section-all-contnet-alignment-grid-div {
+                display: grid;
+                align-content: space-between;
+                img {
+                    width: 100%;
+                }
+                p {
+                    @include font20;
+                    line-height: 24px;
+                    color: var(--color6);
+                    max-width: 229px;
+                    padding: 20px 0;
+                }
+                span {
+                    display: block;
+                    @include font16;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: var(--color6);
+                }
+            }
+        }
+    }
+    .uberuns-all-contnet-alignment {
+        padding: 0 0 70px;
+        .uberuns-all-contnet-alignment-grid {
+            display: grid;
+            grid-template-columns: 336px 1fr;
+            gap: 62px;
+            align-items: center;
+            .uberuns-all-contnet-alignment-grid-div1 {
+                span {
+                    display: block;
+                    @include font20;
+                    color: var(--bgcolor1);
+                    letter-spacing: 10px;
+                    margin-bottom: 10px;
+                }
+                h6 {
+                    @include font46;
+                    color: var(--color6);
+                }
+                h5 {
+                    @include font20;
+                    color: var(--color6);
+                    line-height: 24px;
+                    padding: 25px 0;
+                }
+                p {
+                    @include font16;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: var(--color6);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    section {
+        .background-image {
+            .hero-contnet-alignment {
+                padding: 60px 40px;
+                .hero-contnet-alignment-head {
+                    padding-bottom: 20px;
+                    h1 {
+                        @include font50;
+                    }
+                }
+            }
+        }
+        .handwerk-all-contnet-alignment {
+            padding: 60px 40px;
+            .handwerk-all-contnet-alignment-grid {
+                gap: 50px;
+                .handwerk-all-contnet-alignment-grid1 {
+                    img {
+                        padding-bottom: 18px;
+                        max-width: 186px;
+                    }
+                    h4 {
+                        @include font22;
+                    }
+                }
+            }
+            .handwerk-all-contnet-alignment-number {
+                padding: 100px 80px 0;
+                display: flex;
+                justify-content: space-between;
+                .handwerk-all-contnet-alignment-number1 {
+                    h4 {
+                        @include font96;
+                        color: var(--color3);
+                        display: flex;
+                        span {
+                            display: block;
+                            width: 178px;
+                        }
+                        sup {
+                            color: var(--color3);
+                            @include font36;
+                            position: relative;
+                            top: -25px;
+                        }
+                    }
+                    h6 {
+                        @include font16;
+                        font-weight: 400;
+                        line-height: 24px;
+                        padding-top: 10px;
+                        color: var(--color3);
+                    }
+                }
+                .handwerk-all-contnet-alignment-number2 {
+                    h4 {
+                        @include font96;
+                        color: var(--color3);
+                        display: flex;
+                        span {
+                            display: block;
+                            width: 103px;
+                        }
+                        sup {
+                            color: var(--color3);
+                            @include font36;
+                            position: relative;
+                            top: -25px;
+                        }
+                    }
+                    h6 {
+                        @include font16;
+                        font-weight: 400;
+                        line-height: 24px;
+                        padding-top: 10px;
+                        color: var(--color3);
+                    }
+                }
+            }
+        }
+        .leistungen-all-content-alignment {
+            padding: 96px 0 600px;
+            .eistungen-all-content-alignment-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+                .eistungen-all-content-alignment-grid-div1 {
+                    display: flex;
+                    justify-content: center;
+                }
+                .eistungen-all-content-alignment-grid-div2 {
+                    padding: 0 40px;
+                    h4 {
+                        padding-bottom: 30px;
+                    }
+                    p {
+                        margin: 0 0 50px 0;
+                    }
+                }
+            }
+            .eistungen-all-content-alignment-grid2 {
+                padding: 50px 0 0;
+            }
+        }
+        .das-home-contnet-alignment {
+            padding: 0 40px;
+            .das-home-contnet-alignment-div {
+                padding-bottom: 50px;
+                h4 {
+                    @include font46;
+                }
+            }
+            .das-home-contnet-alignment-grid {
+                gap: 20px;
+                .das-home-contnet-alignment-grid-div {
+                    padding: 40px 20px;
+                    span {
+                        @include font16;
+                    }
+                    p {
+                        @include font14;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+        .slider-section-all-contnet-alignment {
+            padding: 100px 0;
+            marquee {
+                img {
+                    max-width: 450px;
+                    padding-left: 50px;
+                }
+            }
+        }
+        .card-section-all-contnet-alignment {
+            padding: 0 0 50px;
+            .card-section-all-contnet-alignment-grid {
+                gap: 30px;
+                padding: 0 0 50px;
+            }
+        }
+        .uberuns-all-contnet-alignment {
+            padding: 0 40px 70px 40px;
+            .uberuns-all-contnet-alignment-grid {
+                grid-template-columns: 1fr;
+                gap: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        .background-image {
+            background-position: center center;
+            .hero-contnet-alignment {
+                padding: 143px 30px 53px 30px;
+                .hero-contnet-alignment-head {
+                    padding-bottom: 20px;
+                    p {
+                        @include font12;
+                    }
+                    h1 {
+                        @include font33;
+                    }
+                    span {
+                        @include font12;
+                    }
+                }
+                .hero-contnet-alignment-grid {
+                    p {
+                        @include font10;
+                        max-width: 212px;
+                    }
+                }
+            }
+        }
+        .handwerk-all-contnet-alignment {
+            padding: 60px 20px;
+            .handwerk-all-contnet-alignment-grid {
+                grid-template-columns: 1fr;
+                gap: 0px;
+                .handwerk-all-contnet-alignment-grid1 {
+                    img {
+                        padding-bottom: 18px;
+                        max-width: 186px;
+                    }
+                    h4 {
+                        @include font22;
+                    }
+                    span {
+                        @include font12;
+                        font-weight: 600;
+                    }
+                }
+                .handwerk-all-contnet-alignment-grid2 {
+                    p {
+                        @include font12;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                    a {
+                        @include font12;
+                    }
+                }
+            }
+            .handwerk-all-contnet-alignment-number {
+                padding: 45px 0 0 0;
+                .handwerk-all-contnet-alignment-number1 {
+                    h4 {
+                        @include font64;
+                        color: var(--color3);
+                        display: flex;
+                        span {
+                            display: block;
+                            width: 118px;
+                        }
+                        sup {
+                            color: var(--color3);
+                            @include font36;
+                            position: relative;
+                            top: -20px;
+                        }
+                    }
+                    h6 {
+                        @include font16;
+                        font-weight: 400;
+                        line-height: 24px;
+                        padding-top: 10px;
+                        color: var(--color3);
+                    }
+                }
+                .handwerk-all-contnet-alignment-number2 {
+                    h4 {
+                        @include font64;
+                        color: var(--color3);
+                        display: flex;
+                        span {
+                            display: block;
+                            width: 68px;
+                        }
+                        sup {
+                            color: var(--color3);
+                            @include font36;
+                            position: relative;
+                            top: -20px;
+                        }
+                    }
+                    h6 {
+                        @include font16;
+                        font-weight: 400;
+                        line-height: 24px;
+                        padding-top: 10px;
+                        color: var(--color3);
+                    }
+                }
+            }
+        }
+        .leistungen-all-content-alignment {
+            padding: 96px 0 600px;
+            .eistungen-all-content-alignment-grid {
+                grid-template-columns: 1fr;
+                gap: 50px;
+                padding: 0 20px;
+                .eistungen-all-content-alignment-grid-div1 {
+                    display: flex;
+                    justify-content: center;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .eistungen-all-content-alignment-grid-div2 {
+                    padding: 0px;
+                    h4 {
+                        @include font24;
+                        line-height: 24px;
+                        padding-bottom: 30px;
+                    }
+                    p {
+                        @include font12;
+                        font-weight: 400;
+                        line-height: 24px;
+                        margin: 0 0 50px 0;
+                    }
+                }
+            }
+            .eistungen-all-content-alignment-grid2 {
+                padding: 50px 20px 0;
+                grid-template-columns: repeat(1, 1fr);
+                .eistungen-all-content-alignment-grid2-div {
+                    span {
+                        display: block;
+                        @include font20;
+                        color: var(--bgcolor1);
+                        margin-bottom: 20px;
+                    }
+                    p {
+                        @include font12;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: var(--color2);
+                    }
+                }
+            }
+        }
+        .das-home-contnet-alignment {
+            padding: 0 20px;
+            .das-home-contnet-alignment-div {
+                padding-bottom: 50px;
+                span {
+                    display: block;
+                    @include font20;
+                    color: var(--bgcolor1);
+                    margin-bottom: 11px;
+                }
+                h4 {
+                    @include font25;
+                    color: var(--color2);
+                    padding-bottom: 11px;
+                }
+                p {
+                    @include font20;
+                    font-weight: 500;
+                    color: var(--color2);
+                }
+            }
+            .das-home-contnet-alignment-grid {
+                gap: 20px;
+                grid-template-columns: repeat(1,1fr);
+                .das-home-contnet-alignment-grid-div {
+                    padding: 40px 20px;
+                    span {
+                        @include font16;
+                    }
+                    p {
+                        @include font16;
+                        font-weight: 300;
+                        line-height: 20px;
+                        color: var(--color5);
+                        max-width: 250px;
+                    }
+                }
+            }
+        }
+        .slider-section-all-contnet-alignment {
+            padding: 50px 0;
+            marquee {
+                img {
+                    max-width: 250px;
+                    padding-left: 50px;
+                }
+            }
+        }
+        .card-section-all-contnet-alignment {
+            padding: 0 20px 50px 20px;
+            .card-section-all-contnet-alignment-grid {
+                gap: 30px;
+                grid-template-columns: repeat(1, 1fr);
+                padding: 0 0 50px;
+                .card-section-all-contnet-alignment-grid-div {
+                    p {
+                        @include font16;
+                        line-height: 24px;
+                        color: var(--color6);
+                        max-width: 229px;
+                        padding: 20px 0;
+                    }
+                    span {
+                        display: block;
+                        @include font14;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: var(--color6);
+                    }
+                }
+            }
+        }
+        .uberuns-all-contnet-alignment {
+            padding: 0 20px 70px 20px;
+            .uberuns-all-contnet-alignment-grid {
+                grid-template-columns: 1fr;
+                gap: 50px;
+                .uberuns-all-contnet-alignment-grid-div1 {
+                    h6 {
+                        @include font33;
+                        color: var(--color6);
+                    }
+                    h5 {
+                        @include font16;
+                        color: var(--color6);
+                        line-height: 24px;
+                        padding: 25px 0;
+                    }
+                    p {
+                        @include font12;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: var(--color6);
+                    }
+                }
+                .uberuns-all-contnet-alignment-grid-div2 {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
